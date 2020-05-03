@@ -578,6 +578,16 @@ const response = [
     quotes: "It takes GRACE to remain kind in a cruel situation.",
     image: "images/57.jfif",
   },
+  {
+    email: "1706488@kiit.ac.in",
+    name: "Animesh Kumar",
+    hometown: "Khagaria",
+    hobby: "Photography, Singing, Editing , Watching Documentaries",
+    skills: "C++, Machine Learning, ",
+    romanChar: "Trajan",
+    quotes: "",
+    image: "images/58.jpg",
+  },
 ];
 
 const fetchUserDetails = async () => {
