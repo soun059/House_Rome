@@ -8,8 +8,7 @@ const response = [
     hobby: "Reading, Playing Video Games",
     skills: "Data Analysis ,React, Flask and Node Js dev",
     romanChar: "Gaius Octavius",
-    quotes:
-      "Rome cannot die, If we die then we will be reborn as pheonix's ashes get resurrected and as we grow , We conquer the world with our wisdom and knowledge",
+    quotes: "Make your mind like water.",
     image: "images/1.jpg",
   },
   {
@@ -533,7 +532,29 @@ const fetchUserDetails = async () => {
   //const response = await fetch("./_data.json");
   const data = await response;
   data.forEach((user) => {
-    container.innerHTML += `
+    if (user.quotes.length != 0) {
+      container.innerHTML += `
+        <div class="card">
+            <div class="imgBox">
+                <img src=${user.image} class="avatar">
+            </div>
+            <div class="details">
+                <h2>${user.name}</h2>
+                <div><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
+                <div><i class="fas fa-envelope-square fa-2x"></i> ${
+                  user.email
+                }</div>
+                <div><i class="fas fa-wrench fa-2x"></i> ${user.skills}<div>
+                <div><i class="fab fa-angellist fa-2x"></i> ${user.hobby}<div>
+                <div><i class="far fa-smile-wink fa-2x"></i> ${
+                  user.romanChar
+                }<div>
+                <p><i class="fas fa-quote-left "></i>${" " + user.quotes}</p>
+            </div>
+       </div>
+        `;
+    } else {
+      container.innerHTML += `
         <div class="card">
             <div class="imgBox">
                 <img src=${user.image} class="avatar">
@@ -548,6 +569,7 @@ const fetchUserDetails = async () => {
             </div>
        </div>
         `;
+    }
   });
 };
 
