@@ -588,6 +588,28 @@ const response = [
     quotes: "",
     image: "images/58.jpg",
   },
+  {
+    email: "1705005@kiit.ac.in",
+    name: "Abhish Kumar Anand",
+    hometown: "Bhagalpur",
+    hobby: "Playing football, Playing games and learning new things.",
+    skills: "Mathematical modelling, Programming ",
+    romanChar: "Appollo",
+    quotes:
+      "Things turn out best for the people who make the best of the way things turn out.",
+    image: "images/59.jpg",
+  },
+  {
+    email: "1706580@kiit.ac.in",
+    name: "Tamojit dutta",
+    hometown: "jamshedpur",
+    hobby: "football",
+    skills: "C, Java, C++",
+    romanChar: "Julius caesar",
+    quotes:
+      "There are many things that seem impossible only so long as one does not attempt them.",
+    image: "images/60.jpg",
+  },
 ];
 
 const fetchUserDetails = async () => {
