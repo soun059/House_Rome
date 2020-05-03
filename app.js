@@ -566,6 +566,7 @@ const response = [
     quotes: "Being messy is not that bad.",
     image: "images/56.jfif",
     hometown: "Tinsukia",
+    romanChar: "Augustus",
   },
 ];
 
