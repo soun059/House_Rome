@@ -568,6 +568,16 @@ const response = [
     hometown: "Tinsukia",
     romanChar: "Augustus",
   },
+  {
+    email: "swadesh2710@gmail.com",
+    name: "Swadesh Nayak",
+    hometown: "MCL Basundhara",
+    hobby: "Reading books and football",
+    skills: "Cyber Security and cookin",
+    romanChar: "Achilles",
+    quotes: "It takes GRACE to remain kind in a cruel situation.",
+    image: "images/57.jfif",
+  },
 ];
 
 const fetchUserDetails = async () => {
@@ -597,7 +607,9 @@ const fetchUserDetails = async () => {
                 <div class="detain-body"><i class="far fa-smile-wink fa-2x"></i> ${
                   user.romanChar
                 }<div>
-                <p><i class="fas fa-quote-left "></i>${" " + user.quotes}</p>
+                <div class="detain-body"><i class="fas fa-quote-left "></i>${
+                  " " + user.quotes
+                }</p>
             </div>
        </div>
         `;
