@@ -420,7 +420,7 @@ const response = [
     romanChar: "Augustus Ceaser",
     image: "images/41.jpg",
     quotes:
-      "To the optimist the glass is full. To the pessimist, the glass is half empty.To the engineer,the glass is twice as big as it needs to be and I truly believe in it. Smiling face with adequate knowledge always make everyone Perfect",
+      "To the engineer,the glass is twice as big as it needs to be and I truly believe in it. Smiling face with adequate knowledge always make everyone Perfect",
   },
   {
     email: "1705336@kiit.ac.in",
