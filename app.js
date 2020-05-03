@@ -517,6 +517,16 @@ const response = [
     romanChar: "Julius caesar",
     quotes: "",
   },
+  {
+    email: "1705365@kiit.ac.in",
+    name: "Shreyanshi Gupta",
+    hometown: "Varanasi, UP",
+    hobby: "Dancing, travelling, Binge watching",
+    skills: "Active listening, Communication,",
+    romanChar: "Julius caesar",
+    image: "images/52.jfif",
+    quotes: "you get what you work for not what you wish for ",
+  },
 ];
 
 const fetchUserDetails = async () => {
