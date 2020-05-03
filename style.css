@@ -139,7 +139,9 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-
+  .header {
+    font-size: 10px;
+  }
   .logo {
     width: 50px;
     height: 50px;
@@ -155,5 +157,4 @@ h1 {
     font-size: 10px;
     size: 10px;
   }
-
 }
