@@ -581,7 +581,7 @@ const fetchUserDetails = async () => {
                 <img src=${user.image} class="avatar">
             </div>
             <div class="details">
-                <h2>${user.name}</h2>
+                <h2 class="detail-head">${user.name}</h2>
                 <div><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
                 <div><i class="fas fa-envelope-square fa-2x"></i> ${
                   user.email
@@ -602,7 +602,7 @@ const fetchUserDetails = async () => {
                 <img src=${user.image} class="avatar">
             </div>
             <div class="details">
-                <h2>${user.name}</h2>
+                <h2 class="detail-head">${user.name}</h2>
                 <div><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
                 <div><i class="fas fa-envelope-square fa-2x"></i> ${user.email}</div>
                 <div><i class="fas fa-wrench fa-2x"></i> ${user.skills}<div>

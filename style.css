@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -49,9 +50,11 @@ body {
   z-index: 1;
   transition: 1s;
 }
+
 .card:hover .imgBox {
   transform: rotateY(-135deg);
 }
+
 .card .imgBox .img {
   position: absolute;
   top: 0;
@@ -60,6 +63,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 .card .details {
   position: absolute;
   top: 0;
@@ -144,4 +148,10 @@ h1 {
     height: 50px;
     text-align: center;
   }
+
+  .detail-head {
+    font-size: 15px;
+    size: 15px;
+  }
+
 }
