@@ -71,7 +71,7 @@ const response = [
     skills: "Photographer",
     romanChar: "Hadas",
     quotes: "I had rather be first in a village than second at Rome",
-    image: "images/7.jpg",
+    image: "images/7.jfif",
   },
   {
     email: "1705688@kiit.ac.in",
@@ -174,7 +174,7 @@ const response = [
     skills: "Photography",
     romanChar: "Trajan",
     quotes: "Developing the unexposed film called life :)",
-    image: "images/17.jpg",
+    image: "images/17.jfif",
   },
   {
     email: "1704179@kiit.ac.in",
