@@ -582,13 +582,19 @@ const fetchUserDetails = async () => {
             </div>
             <div class="details">
                 <h2 class="detail-head">${user.name}</h2>
-                <div><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
-                <div><i class="fas fa-envelope-square fa-2x"></i> ${
+                <div class="detain-body"><i class="fas fa-home fa-2x"></i> ${
+                  user.hometown
+                }<div>
+                <div class="detain-body"><i class="fas fa-envelope-square fa-2x"></i> ${
                   user.email
                 }</div>
-                <div><i class="fas fa-wrench fa-2x"></i> ${user.skills}<div>
-                <div><i class="fab fa-angellist fa-2x"></i> ${user.hobby}<div>
-                <div><i class="far fa-smile-wink fa-2x"></i> ${
+                <div class="detain-body"><i class="fas fa-wrench fa-2x"></i> ${
+                  user.skills
+                }<div>
+                <div class="detain-body"><i class="fab fa-angellist fa-2x"></i> ${
+                  user.hobby
+                }<div>
+                <div class="detain-body"><i class="far fa-smile-wink fa-2x"></i> ${
                   user.romanChar
                 }<div>
                 <p><i class="fas fa-quote-left "></i>${" " + user.quotes}</p>
@@ -603,11 +609,11 @@ const fetchUserDetails = async () => {
             </div>
             <div class="details">
                 <h2 class="detail-head">${user.name}</h2>
-                <div><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
-                <div><i class="fas fa-envelope-square fa-2x"></i> ${user.email}</div>
-                <div><i class="fas fa-wrench fa-2x"></i> ${user.skills}<div>
-                <div><i class="fab fa-angellist fa-2x"></i> ${user.hobby}<div>
-                <div><i class="far fa-smile-wink fa-2x"></i> ${user.romanChar}<div>
+                <div class="detain-body"><i class="fas fa-home fa-2x"></i> ${user.hometown}<div>
+                <div class="detain-body"><i class="fas fa-envelope-square fa-2x"></i> ${user.email}</div>
+                <div class="detain-body"><i class="fas fa-wrench fa-2x"></i> ${user.skills}<div>
+                <div class="detain-body"><i class="fab fa-angellist fa-2x"></i> ${user.hobby}<div>
+                <div class="detain-body"><i class="far fa-smile-wink fa-2x"></i> ${user.romanChar}<div>
             </div>
        </div>
         `;
