@@ -526,6 +526,47 @@ const response = [
     image: "images/52.jfif",
     quotes: "you get what you work for not what you wish for ",
   },
+  {
+    email: "1729160@kiit.ac.in",
+    name: "Shambhavi Agrawal",
+    hometown: "Lucknow",
+    hobby: "Swimming,music, travelling",
+    skills: "Problem solving, communication",
+    romanChar: "Minerva",
+    image: "images/53.jfif",
+    quotes:
+      "Don't be afraid of being different, be afraid of being same as everyone.",
+  },
+  {
+    email: "1705592@kiit.ac.in",
+    name: "Dibyanshu Singh",
+    hometown: "Gopalganj",
+    hobby: "Playing Cricket and Football , reading astronomy articles",
+    skills:
+      "Teamwork, Resilience, Responsibility, Adaptability,ML ,DSA ,C++,python",
+    romanChar: "Augustus",
+    image: "images/54.jfif",
+    quotes: "",
+  },
+  {
+    name: "Shrabani Dhal",
+    email: "1707401@kiit.ac.in",
+    hobby: "Singing , dancing and travelling",
+    skills: "Internet of Things ,C++ and cloud computing",
+    romanChar: "spartacus",
+    image: "images/55.jfif",
+    hometown: "Sambalpur, Odisha",
+    quotes: "",
+  },
+  {
+    name: "Gargee Banerjee",
+    email: "1728060@kiit.ac.in",
+    skills: "Cybersecurity",
+    hobby: "Dancing & Creative art",
+    quotes: "Being messy is not that bad.",
+    image: "images/56.jfif",
+    hometown: "Tinsukia",
+  },
 ];
 
 const fetchUserDetails = async () => {
